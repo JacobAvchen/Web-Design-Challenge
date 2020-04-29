@@ -1,0 +1,47 @@
+body {
+  background-color: #BDBDBD;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.container1 {
+  background-color: #FFFFFF;
+  height: 400px;
+  width: 900px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.container2 {
+  background-color: #FFFFFF;
+  height: 400px;
+  width: 400px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.mainfig{
+  width:350px;
+  height:320px;
+  float:left;
+}
+
+.minifig{
+   width: 175px;
+   height: 175px;
+}
+
+@media (max-width: 900px) {
+  .container1{
+    width: 500px;
+    height: 550px;
+  }
+
+  .container2{
+    width: 700px;
+    height: 300px;
+  }
+}
